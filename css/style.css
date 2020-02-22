@@ -1,0 +1,58 @@
+#imageh img{
+    height: 800px;
+    width: fit-content;
+}
+#images img{
+    padding-top: 30px;
+    height: 800px;
+    width: fit-content;
+}
+.about{
+    margin: 20px;
+}
+.about {
+    
+    padding: 10px;
+}
+
+
+.about h4{
+    text-transform: uppercase;
+}
+.about{
+    text-align: center;
+
+}
+.about p{
+    font-size: medium;
+}
+.about .paragraph p{
+    font-size: larger;
+}
+.heading{
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+.row {
+    justify-items: center;
+    padding: 20px;
+    
+}
+.portfolio{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+.portfolio{
+    justify-items: center;
+    
+}
+.portfolio img{
+    height: 200px;
+    position: relative;
+    
+}
+.last{
+    padding-top: 40px;
+}
