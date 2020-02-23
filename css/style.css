@@ -25,9 +25,11 @@
 }
 .about p{
     font-size: medium;
+    
 }
 .about .paragraph p{
     font-size: larger;
+    text-align: center;
 }
 .heading{
     text-transform: uppercase;
@@ -47,11 +49,12 @@
 .portfolio{
     justify-items: center;
     
+    
 }
 .portfolio img{
     
     position: relative;
-    
+    height: 200px;
 }
 .last{
     padding-top: 40px;
