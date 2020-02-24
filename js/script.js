@@ -1,5 +1,7 @@
-(document).ready(function(){
-("img").click (function() {
-    ("p").show();
+$(document).ready(function(){
+$(".image-text").click(function(){
+    $(".image").toggle();
+    $(".text").toggle();
 });
 });
+
