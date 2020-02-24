@@ -79,13 +79,25 @@
     align-items: center;
     
 }
-#formclass id{
-    display: flex;
-    padding-left: 300px;
+/*form styles*/
+#formclass{
+    padding-left: 550px;
+    
     
 }
+#formclass id{
+    display: flex;   
+}
+#formclass input [type ="text"], [id="name"], [class="form-control"]{
+    background: transparent;
+}
+#formclass textarea{
+    background: transparent;
+
+}
+
 /*style for image h*/
-/*hover state*/
+
 .portfolio #images{
     border: 3px snow;
     transition: color 0.5s;
@@ -98,7 +110,7 @@
     width: fit-content;
 }
 /*js hiding*/
-.clickable{
+.text {
     display: none;
     text-align: center;
 }
@@ -147,7 +159,7 @@
 .portfolio #images{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding-left: 270px;
+    padding-left: 250px;
 
 }
 .portfolio #images{
