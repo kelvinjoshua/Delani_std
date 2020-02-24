@@ -67,14 +67,41 @@
     padding-left: 800px;
 
 }
-/*style for image h*/
+.containor #last  {
+    position: relative;
+    text-align: center;
+    color: white;
+}
 
+.containor #last  #formclass {
+    position: absolute;
+    top: 100px;
+    align-items: center;
+    
+}
+#formclass id{
+    display: flex;
+    padding-left: 300px;
+    
+}
+/*style for image h*/
+/*hover state*/
+.portfolio #images{
+    border: 3px snow;
+    transition: color 0.5s;
+}
+.portfolio #images :hover img{
+    color: seagreen;
+}
 #imageh img{
     
     width: fit-content;
 }
-
-
+/*js hiding*/
+.clickable{
+    display: none;
+    text-align: center;
+}
 #images img{
     padding-top: 30px;
     
@@ -138,4 +165,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     
+}
+.containor .formclass  {
+    position: relative;
+    text-align: center;
+    color: white;}
+
+.formclass{ 
+    position: absolute;
 }
