@@ -1,12 +1,86 @@
+
+
+
+
+/*first background styles*/
+.containor .background #imageh {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.containor .background #imageh p{
+    font-size: xx-large;
+}
+.containor .background #imageh .bottom-center img{
+    position: absolute;
+    bottom: 8px;
+    float: inherit;
+    
+}
+/*services image styles*/
+.containor .background #images {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+}
+.middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.containor .background #images p{
+    font-size: large;
+}
+
+.containor .background #images h2{
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-weight: bold;
+}
+/*last background styles*/
+#last{
+    padding-top: 30px;
+    width: fit-content;
+}
+.containor #last h2{
+    text-transform: uppercase;
+}
+.containor #last {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.containor #last .top h2{
+    position: absolute;
+    top: 60px;
+    padding-left: 800px;
+
+}
+/*style for image h*/
+
 #imageh img{
     
     width: fit-content;
 }
+
+
 #images img{
     padding-top: 30px;
     
     width: fit-content;
 }
+/*about paragraph*/
 .about{
     margin: 20px;
 }
@@ -30,6 +104,7 @@
 .about .paragraph p{
     font-size: larger;
     text-align: center;
+    
 }
 .heading{
     text-transform: uppercase;
@@ -37,25 +112,30 @@
     
 }
 .row {
-    justify-items: center;
+    float: center;
     padding: 20px;
     
 }
-.portfolio{
+/*portfolio images*/
+.portfolio #images{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 270px;
+
+}
+.portfolio #images{
+    cursor: pointer;
+    color: rgb(145, 98, 36);
     
 }
-.portfolio{
-    justify-items: center;
-    
-    
+.portfolio #images img{
+    padding-left: 20px;
+    padding-right: 20px;
 }
-.portfolio img{
+
+/*all media icons*/
+#mediaicons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     
-    position: relative;
-    height: 200px;
-}
-.last{
-    padding-top: 40px;
 }
