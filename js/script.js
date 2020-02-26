@@ -12,19 +12,30 @@ $(document).ready(function(){
     });
     });
 
-    $(document).ready(function(){
-        $(".image-text3").click(function(){
-            $(".image3").toggle();
-            $(".text3").toggle();
+$(document).ready(function(){
+    $(".image-text3").click(function(){
+        $(".image3").toggle();
+         $(".text3").toggle();
         });
         });
 /*  */
-$("#submit").click(function (event) {
+
+function validateTheForm() {
+    var Name = document.getElementById("Name").value;
+    var Email = document.getElementById("Email").value;
+    if (Name == "") {
+      alert("please fill in your Name");
+      return false;
+    } 
+    else if (Email == "") {
+      alert("Please fill in your name and Email");
+      return false;
+    }
+     else {
+      alert(
+        Name +
+          ", we have received your message. Thank you for reaching out to us."
+      );
+    }
     event.preventDefault();
-    var user = $("#name").val();
-    var message = $("email").val();
-    var area = $("#random").val();
-    //var key = '43ab10333d46e19325f96d210ed40c49-us5';//
-    if (user == "" || message == "" || area == "") {
-        alert(user + " we have recieved your submission")        } else {
-        alert("fill out fields")        }    })
+  }

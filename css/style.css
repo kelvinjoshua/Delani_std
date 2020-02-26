@@ -1,7 +1,5 @@
 
 
-
-
 /*first background styles*/
 .containor .background #imageh {
     position: relative;
@@ -53,6 +51,9 @@
     padding-top: 30px;
     width: fit-content;
 }
+#last {
+    width: max-content;
+}
 .containor #last h2{
     text-transform: uppercase;
 }
@@ -88,10 +89,13 @@
 #formclass id{
     display: flex;   
 }
-#formclass input [type ="text"], [id="name"], [class="form-control"]{
+#formclass input [type ="text"], [class="mt-3 form-control"], [id="name"]{
     background: transparent;
 }
-#formclass textarea{
+#formclass input [type ="email"], [class="mt-3 form-control col-form-label"], [id="Email"]{
+    background: transparent;
+}
+#formclass #Text-area{
     background: transparent;
 
 }
