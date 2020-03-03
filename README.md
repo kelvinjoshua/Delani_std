@@ -1,11 +1,11 @@
 ## Project name
-ghana
+Delani
 
 ## Project Author
 kelvin Bale
 
 ## Project Description
-//
+This is a webpage with images and clickable images on hover also with a form that takes user input and shows an alert
 
 ## Technology used
 HTML CSS java script
